@@ -3,6 +3,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import SectionDivider from "@/components/section-divider";
+import About from "@/components/about";
+import Experience from "@/components/experience";
 import Image from "next/image";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
@@ -90,7 +92,12 @@ export default function Home() {
           </a>
         </motion.div>
       </section>
-      <SectionDivider></SectionDivider>
+      <SectionDivider />
+      <About />
+      {/*       <Projects />
+      <Skills />
+      <Experience />
+      <Contact /> */}
     </main>
   );
 }
