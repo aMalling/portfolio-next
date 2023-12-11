@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import SectionDivider from "@/components/section-divider";
 import About from "@/components/about";
 import Experience from "@/components/experience";
+import Projects from "@/components/projects";
 import Image from "next/image";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
@@ -47,7 +48,7 @@ export default function Home() {
         >
           <span className="font-bold">Hello, I'm Anders.</span> I'm a{" "}
           <span className="font-bold">full-stack developer.</span> I enjoy
-          working with data and building{" "}
+          working with data, building{" "}
           <span className="italic">sites & apps.</span>
         </motion.h1>
         <motion.div
@@ -94,7 +95,8 @@ export default function Home() {
       </section>
       <SectionDivider />
       <About />
-      {/*       <Projects />
+      <Projects />
+      {/*       
       <Skills />
       <Experience />
       <Contact /> */}
