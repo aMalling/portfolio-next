@@ -6,6 +6,7 @@ import SectionDivider from "@/components/section-divider";
 import About from "@/components/about";
 import Experience from "@/components/experience";
 import Projects from "@/components/projects";
+import Contact from "@/components/contact";
 import Image from "next/image";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
@@ -98,8 +99,8 @@ export default function Home() {
       <Projects />
       {/*       
       <Skills />
-      <Experience />
-      <Contact /> */}
+      <Experience />*/}
+      <Contact />
     </main>
   );
 }

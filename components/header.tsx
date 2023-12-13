@@ -47,9 +47,8 @@ export default function Header() {
               key={link.hash}
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              href={link.hash}
             >
-              {link.name}
+              <Link href={link.hash}>{link.name}</Link>
             </motion.li>
           ))}
         </ul>
