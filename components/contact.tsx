@@ -8,7 +8,7 @@ export default function Contact() {
     <div>
       <h2 className="text-4xl font-bold mt-28 text-center mb-2">Contact</h2>
       <motion.div
-        className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28 bg-gray-700 text-white py-5 rounded-full px-16 shadow-2xl border border-white"
+        className="mb-28 w-screen sm:w-auto max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28 bg-gray-700 text-white py-5 sm:rounded-full sm:px-16 shadow-2xl border border-white"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.175 }}

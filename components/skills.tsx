@@ -37,13 +37,13 @@ export default function Skills() {
   return (
     <div className="w-[98.5vw] bg-gray-200 text-center mt-40">
       <motion.section
-        className=" leading-8 mt-28 mb-52 mx-auto max-w-[42rem] scroll-mt-28"
+        className=" leading-8 my-6 sm:mt-28 sm:mb-52 mx-auto max-w-[42rem] scroll-mt-28"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.175 }}
         id="skills"
       >
-        <h2 className="text-4xl font-bold mb-12">Skills:</h2>
+        <h2 className="text-4xl font-bold mb-4 sm:mb-12">Skills:</h2>
         <ul className="flex flex-wrap mt-4 gap-2 justify-center sm:mt-auto">
           {skills.map((skill, index) => (
             <li
