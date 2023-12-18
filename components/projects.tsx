@@ -10,7 +10,7 @@ const tags2 = ["React", "Next.js", "Tailwind", "Framer"];
 export default function Projects() {
   return (
     <motion.section
-      className="mb-28 max-w-[60rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="max-w-[60rem] text-center leading-8  scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.275 }}
@@ -55,7 +55,7 @@ export default function Projects() {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-2 mb-16 py-6 pb-0 bg-gray-100 rounded-lg shadow-md">
+      <div className="grid grid-cols-2 pt-6 pb-0 bg-gray-100 rounded-lg shadow-md">
         <div className="mx-2 pt-3 px-6 py-6">
           <h3 className="text-xl font-bold pt-6  ">ØLJULEKALENDEREN 2023</h3>
           <div className=" italic mb-5">

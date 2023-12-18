@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import SectionDivider from "@/components/section-divider";
 import About from "@/components/about";
+import Skills from "@/components/skills";
 import Experience from "@/components/experience";
 import Projects from "@/components/projects";
 import Contact from "@/components/contact";
@@ -97,9 +98,7 @@ export default function Home() {
       <SectionDivider />
       <About />
       <Projects />
-      {/*       
       <Skills />
-      <Experience />*/}
       <Contact />
     </main>
   );
