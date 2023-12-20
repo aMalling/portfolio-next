@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import SectionDivider from "@/components/section-divider";
 import About from "@/components/about";
 import Skills from "@/components/skills";
-import Experience from "@/components/experience";
 import Projects from "@/components/projects";
 import Contact from "@/components/contact";
 import Image from "next/image";
