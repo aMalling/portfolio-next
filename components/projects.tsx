@@ -26,7 +26,7 @@ export default function Projects() {
             application offers three levels of access and functionalities.
           </div>
           <div className="bg-black">
-            <span className="font-semibold mx-2 sm:p-6 sm:text-left pt-1 text-yellow-500">
+            <span className="font-semibold mx-2 sm:p-6 sm:text-left pt-1 text-white">
               Not suiteable for phones - since its not going to be accessable
               through phones anyway for security reasons.
             </span>
