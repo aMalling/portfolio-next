@@ -17,7 +17,7 @@ export default function Projects() {
       id="projects"
     >
       <h2 className="text-4xl font-bold mt-5 md:mt-0 mb-4">Projects</h2>
-      <div className="flex flex-col sm:grid grid-cols-2 mb-16 w-screen sm:w-auto pt-6 pb-0 bg-gray-100 rounded-lg shadow-md">
+      <div className="flex flex-col sm:grid grid-cols-2 mb-16 w-screen sm:w-auto pt-6 pb-0 bg-gray-100 dark:bg-gray-100/10 rounded-lg shadow-md">
         <div className="sm:mx-2 sm:pt-3 sm:px-6 sm:py-6">
           <h3 className="text-xl font-bold sm:pt-6  ">AUHKRAEFT.RM.DK</h3>
           <div className=" italic mb-5 px-2">
@@ -55,7 +55,7 @@ export default function Projects() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col sm:grid grid-cols-2 pt-6 pb-0 bg-gray-100 rounded-lg shadow-md">
+      <div className="flex flex-col sm:grid grid-cols-2 pt-6 pb-0 bg-gray-100 dark:bg-gray-100/10 rounded-lg shadow-md">
         <div className="sm:mx-2 sm:pt-3 sm:px-6 sm:py-6">
           <h3 className="text-xl font-bold sm:pt-6  ">ØLJULEKALENDEREN 2023</h3>
           <div className="italic mb-5">

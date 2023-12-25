@@ -33,28 +33,47 @@ const skills = [
 
   "SQL Server",
 ];
+
+const fadeInAnimationVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: (index: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.05 * index,
+    },
+  }),
+};
+
 export default function Skills() {
   return (
-    <div className="w-[98.5vw] bg-gray-200 text-center mt-40">
-      <motion.section
+    <div className="w-[98.5vw] bg-gray-200  dark:bg-gray-100/10 text-center mt-40">
+      <section
         className=" leading-8 my-6 sm:mt-28 sm:mb-52 mx-auto max-w-[42rem] scroll-mt-28"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.175 }}
         id="skills"
       >
         <h2 className="text-4xl font-bold mb-4 sm:mb-12">Skills:</h2>
         <ul className="flex flex-wrap mt-4 gap-2 justify-center sm:mt-auto">
           {skills.map((skill, index) => (
-            <li
+            <motion.li
               className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
               key={index}
+              variants={fadeInAnimationVariants}
+              initial="initial"
+              whileInView="animate"
+              viewport={{
+                once: true,
+              }}
+              custom={index}
             >
               {skill}
-            </li>
+            </motion.li>
           ))}
         </ul>
-      </motion.section>
+      </section>
     </div>
   );
 }

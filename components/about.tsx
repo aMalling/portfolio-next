@@ -13,7 +13,7 @@ export default function About() {
       id="about"
     >
       <h2 className="text-4xl font-bold mt-5 md:mt-0">About me</h2>
-      <p className="text-lg font-semibold text-gray-800 mt-4">
+      <p className="text-lg font-semibold text-gray-800 dark:text-gray-200 mt-4">
         I am Anders Helle Malling, a passionate and dependable web developer
         based in Aarhus, Denmark, and I run a solo web agency.
         <p className="mt-3">
