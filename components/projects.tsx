@@ -70,14 +70,14 @@ export default function Projects() {
             result is a CRUD application incorporating data from clinical
             oncological research conducted at Aarhus University Hospital.
           </div>
-          <div className="bg-black">
-            <span className="font-semibold mx-2 sm:p-6 sm:text-left pt-1 text-white">
-              Not suiteable for phones - since its not going to be accessable
-              through phones anyway for security reasons.
-            </span>
-          </div>
         </div>
         <div className=" sm:py-6 sm:pr-4">
+          <div className="bg-black border mb-2">
+            <span className="font-semibold   text-center pt-1 text-white">
+              Not suiteable for phones - since its not going to be accessable
+              through phones for security reasons.
+            </span>
+          </div>
           <a
             className="cursor-pointer"
             href="https://kfeappen-clone.vercel.app/"
