@@ -169,7 +169,7 @@ export default function Projects() {
         <div className="sm:py-6 sm:pr-4">
           <a
             className="cursor-pointer"
-            href="https://julekalenderen.vercel.app/"
+            href="https://psykolog-tid-vejle.vercel.app/"
           >
             <Image
               className="border-2 mb-4 "
