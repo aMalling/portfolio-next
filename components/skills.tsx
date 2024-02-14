@@ -14,7 +14,7 @@ const skills = [
   "Tailwind",
   "Python",
   "Flask",
-  "Data managment",
+  "Data Management",
   "Data Engineering",
   "Statistics",
   "ML",
@@ -30,7 +30,6 @@ const skills = [
   "Back-End Development",
   "REST APIs",
   "Git",
-
   "SQL Server",
 ];
 
